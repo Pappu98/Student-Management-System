@@ -46,7 +46,7 @@
 #define ADMIN_MOD_STUDENT_MENU "Enter information to modify\n1. Name 2. Email 3. Password 4. StudentStatus \nPress any other key to cancel"
 #define ADMIN_MOD_STUDENT_NEW_NAME "Enter updated value for name?"
 #define ADMIN_MOD_STUDENT_NEW_EMAIL "Enter updated value for email?"
-#define ADMIN_MOD_STUDENT_NEW_PASSWORD "Enter updated value for password?\n#"
+#define ADMIN_MOD_STUDENT_NEW_PASSWORD "Enter updated value for password\n#"
 #define ADMIN_MOD_STUDENT_NEW_STATUS "Enter updated value for student status \n 1. Activate 2. Deactivate"
 
 
@@ -59,10 +59,10 @@
 
 // MODIFY FACULTY INFO
 #define ADMIN_MOD_FACULTY_ID "Enter the ID of the Faculty who's information you want to edit"
-#define ADMIN_MOD_FACULTY_MENU "Which information would you like to modify?\n1. Name 2. Email 3. Password\nPress any other key to cancel"
-#define ADMIN_MOD_FACULTY_NEW_NAME "What's the updated value for name?"
-#define ADMIN_MOD_FACULTY_NEW_EMAIL "What's the updated value for email?"
-#define ADMIN_MOD_FACULTY_NEW_PASSWORD "What's the updated value for password?\n#"
+#define ADMIN_MOD_FACULTY_MENU "Enter information would you like to modify\n1. Name 2. Email 3. Password\nPress any other key to cancel"
+#define ADMIN_MOD_FACULTY_NEW_NAME "Enter updated value for name"
+#define ADMIN_MOD_FACULTY_NEW_EMAIL "Enter the updated value for email"
+#define ADMIN_MOD_FACULTY_NEW_PASSWORD "What's the updated value for password\n#"
 
 #define ADMIN_MOD_SUCCESS "The required modification was successfully made!\nYou'll now be redirected to the main menu!^"
 #define ADMIN_LOGOUT "Logging out!$"
@@ -83,7 +83,7 @@
 #define FACULTY_ADD_COURSE_NAME "Enter course's name"
 #define FACULTY_REMOVE_COURSE "Enter course ID to be removed"
 #define FACULTY_VIEW_COURSE_ENROLLENT "Enrollments in the course are"
-#define FACULTY_ADD_COURSE_SUCCESS "Course has been created successfully!"
+#define FACULTY_ADD_COURSE_SUCCESS "Course has been created successfully! Course Name: "
 #define FACULTY_ADD_COURSE_LIMIT "Enter the maximum no of students that can enroll"
 #define FACULTY_ERROR_COURSE_LIMIT "Invalid Input: Given value is greater than maximum allowed^"
 
@@ -104,22 +104,22 @@
 // ========== STUDENT SPECIFIC TEXT===================
 
 // LOGIN WELCOME
-#define STUDENT_LOGIN_WELCOME "Welcome dear student! Enter your credentials to gain access to your account!"
-#define STUDENT_LOGIN_SUCCESS "Welcome beloved student!"
+#define STUDENT_LOGIN_WELCOME "Welcome student! Enter your credentials!"
+#define STUDENT_LOGIN_SUCCESS "Welcome student!"
 
-#define STUDENT_LOGOUT "Logging you out now dear student! Good bye!$"
+#define STUDENT_LOGOUT "Logging out!$"
 
 // STUDENT MENU
 #define STUDENT_MENU "1. Enroll Course\n2. Unenroll Course\n3. View Enrolled Courses\n4. Change Password\nPress any other key to logout"
 
 // ENROLL COURSE
-#define STUDENT_ENROLL_COURSE "What is the courseID?"
-#define STUDENT_UNENROLL_COURSE "What is the course ID to be removed?"
+#define STUDENT_ENROLL_COURSE "Enter courseID?"
+#define STUDENT_UNENROLL_COURSE "Enter course ID to be removed?"
 #define STUDENT_VIEW_ENROLLENT "Enrollments in the course are"
 #define STUDENT_ENROLL_COURSE_SUCCESS "You have successfully enrolled in the course!"
 #define STUDENT_UNENROLL_COURSE_SUCCESS "You have been successfully removed from the course enrollment.!"
 #define STUDENT_ERROR_COURSE_INVALID "Please enter a valid course ID!^"
-#define STUDENT_ERROR_COURSE_FULL "Sorry, You cannot register because the course is already at maximum capacity.!^"
+#define STUDENT_ERROR_COURSE_FULL "Sorry, You cannot register because the course is already at maximum capacity!^"
 #define STUDENT_VIEW_COURSES "Courses enrolled are: "
 #define STUDENT_ERROR_COURSE_TAKEN "You have already registered to the course.^"
 

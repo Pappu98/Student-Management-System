@@ -143,6 +143,7 @@ int add_course(int connFD, int facultyID)
 
     bzero(writeBuffer, sizeof(writeBuffer));
     sprintf(writeBuffer, "%s", FACULTY_ADD_COURSE_SUCCESS);
+    strcat(writeBuffer,newCourse.name);
     strcat(writeBuffer, "^");
     writeBytes = write(connFD, writeBuffer, strlen(writeBuffer));
     if (writeBytes == -1)
