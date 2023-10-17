@@ -26,5 +26,5 @@ Roles implemented: Faculty, Student, Admin.
 Account holders have to pass through a login system to enter their accounts, and
 all these User accounts will be managed by the Administrator.
 
-Server maintains the database and serves multiple clients concurrently. Clients can connect to the server and access their specific academic details.
+Server maintains three files as Databases (Course, Faculty and Student) and serves multiple clients concurrently. Clients can connect to the server and access their specific academic details.
 To handle concurrent client requests fork system call is used.
