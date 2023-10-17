@@ -6,13 +6,13 @@ A common platform for Faculty, Student to process Academic curriculum.
 
 ## Features
 
-Faculty Registration
-Student Registration
-Course Registration
-Enroll Courses
-Drop Courses
-Deactivate Student
-Change Seat Capacity of Courses
+Faculty Registration.
+Student Registration.
+Course Registration.
+Enroll Courses.
+Drop Courses.
+Deactivate Student.
+Change Seat Capacity of Courses.
 
 ## Getting Started
 
